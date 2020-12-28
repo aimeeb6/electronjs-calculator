@@ -15,28 +15,29 @@
         <div class="calculator">
             <div class="cal-input-container">
                 <input class="cal-input" type="text">
+                <button class="delete-btn" id="clear">C</button>
             </div>
             <div class="cal-buttons">
-                <button class="math-button">1</button>
-                <button class="math-button">2</button>
-                <button class="math-button">3</button>
-                <button class="math-symbol">&divide;</button>
-                <button class="math-button">4</button>
-                <button class="math-button">5</button>
-                <button class="math-button">6</button>
-                <button class="math-symbol">&times;</button>
-                <button class="math-button">7</button>
-                <button class="math-button">8</button>
-                <button class="math-button">9</button>
-                <button class="math-symbol">&#x2212;</button>
-                <button class="math-button">0</button>
+                <button class="math-button cal-button" id="1">1</button>
+                <button class="math-button cal-button" id="2">2</button>
+                <button class="math-button cal-button" id="3">3</button>
+                <button class="math-symbol cal-button" id="/">&divide;</button>
+                <button class="math-button" id="4">4</button>
+                <button class="math-button" id="5">5</button>
+                <button class="math-button" id="6">6</button>
+                <button class="math-symbol" id="*">&times;</button>
+                <button class="math-button" id="7">7</button>
+                <button class="math-button" id="8">8</button>
+                <button class="math-button" id="9">9</button>
+                <button class="math-symbol" id="-">&#x2212;</button>
+                <button class="math-button" id="0">0</button>
                 <button class="math-symbol" id="equals">=</button>
-                <button class="math-symbol">+</button>
+                <button class="math-symbol" id="+">+</button>
             </div>
         </div>
     </div>
     <script>
-        require('/cal')
+        require("./cal")
     </script>
 </body>
 
