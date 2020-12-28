@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: Arial;
+    border: none;
+    border-radius: 5px;
+}
+
+.container{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cal-input-container{
+    background-color: red;
+}
+
+.cal-buttons{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.math-button{
+    width: 21%;
+    height: 3rem;
+    margin: 2%;
+}
+    
+.cal-input{
+    width: 100%;
+    height: 2.5rem;
+    border: .1px solid black;
+    background-color: rgb(189, 189, 189);
+}
+
+
+.math-symbol{
+   width: 21%;
+   height: 3rem;
+   margin: 2%;
+   background-color: rgb(12, 68, 121);
+   color: white;
+   font-size: 28px;
+   text-decoration: bold;
+   font-weight: 60;
+}
+
+#equals{
+    width: 46%;
+    height: 3rem;
+    margin: 2%;
+    background-color: rgb(14, 108, 216);
+    color: white;
+}
